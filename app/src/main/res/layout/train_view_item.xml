@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/train_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_item_height"
+    android:orientation="horizontal"
+    android:clickable="false"
+    android:longClickable="true">
+
+    <TextView
+        android:id="@+id/trainViewNo"
+        android:layout_width="50dp"
+        android:layout_height="@dimen/view_item_height"
+        android:text="TRAIN"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/trainViewSource"
+        android:layout_width="50dp"
+        android:text="SOURCE"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp"
+        android:layout_height="@dimen/view_item_height"/>
+
+    <TextView
+        android:id="@+id/trainViewDest"
+        android:layout_width="50dp"
+        android:text="DESTINATION"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp"
+        android:layout_height="@dimen/view_item_height"/>
+
+    <TextView
+        android:id="@+id/trainViewDept"
+        android:layout_width="45dp"
+        android:text="DEPARTURE"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp"
+        android:layout_height="@dimen/view_item_height"/>
+
+    <TextView
+        android:id="@+id/trainViewArriv"
+        android:layout_width="45dp"
+        android:text="ARRIVAL"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="12sp"
+        android:layout_height="@dimen/view_item_height"/>
+
+</LinearLayout>
